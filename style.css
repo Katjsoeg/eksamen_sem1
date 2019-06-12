@@ -1,4 +1,34 @@
+/*Other code*/
+
+nav {
+	display: block;
+	font-family: sans-serif, calibri;
+	font-size: 2em;
+
+}
+
 /*Index*/
+
+#index {
+	width: 100%;
+	height: 1080px;
+	background-image: url(img/indexbg.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+
+/* For devices smaller than 400px: */
+body {
+	background-image: url('img_smallflower.jpg');
+}
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
+	body {
+		background-image: url('img_flowers.jpg');
+	}
+}
 
 /*Om*/
 
