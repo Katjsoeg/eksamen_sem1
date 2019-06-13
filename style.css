@@ -164,10 +164,142 @@ img {
 
 /*Tema 1 - Grundlæggende Web*/
 
+#web .sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #db6261;
+	margin: 1rem;
+}
+
+#web .col_wide {
+	display: flex;
+	flex-grow: 2;
+	flex-basis: 600px;
+
+}
+
+#web .colors {
+	flex-grow: 0;
+	flex-basis: 100px;
+
+}
+
+#web .content {
+	flex-grow: 5;
+	flex-basis: 500px;
+
+}
+
+#web .col_narrow {
+	flex-grow: 1;
+	flex-basis: 300px;
+
+}
+
+
 /*Tema 2 - Grundlæggende Animation*/
+
+#animation .sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #db6261;
+	margin: 1rem;
+}
+
+#animation .col_wide {
+	display: flex;
+	flex-grow: 2;
+	flex-basis: 600px;
+
+}
+
+#animation .colors {
+	flex-grow: 0;
+	flex-basis: 100px;
+
+}
+
+#animation .content {
+	flex-grow: 5;
+	flex-basis: 500px;
+
+}
+
+#animation .col_narrow {
+	flex-grow: 1;
+	flex-basis: 300px;
+
+}
+
 
 /*Tema 3 - Grundlæggende Content*/
 
+#content .sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #db6261;
+	margin: 1rem;
+}
+
+#content .col_wide {
+	display: flex;
+	flex-grow: 2;
+	flex-basis: 600px;
+
+}
+
+#content .colors {
+	flex-grow: 0;
+	flex-basis: 100px;
+
+}
+
+#content .content {
+	flex-grow: 5;
+	flex-basis: 500px;
+
+}
+
+#content .col_narrow {
+	flex-grow: 1;
+	flex-basis: 300px;
+
+}
+
+
 /*Tema 4 - Grundlæggende UX*/
+
+#ux .sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #db6261;
+	margin: 1rem;
+}
+
+#ux .col_wide {
+	display: flex;
+	flex-grow: 2;
+	flex-basis: 600px;
+
+}
+
+#ux .colors {
+	flex-grow: 0;
+	flex-basis: 100px;
+
+}
+
+#ux .content {
+	flex-grow: 5;
+	flex-basis: 500px;
+
+}
+
+#ux .col_narrow {
+	flex-grow: 1;
+	flex-basis: 300px;
+
+}
+
 
 /* Media queries */
