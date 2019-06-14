@@ -7,9 +7,8 @@
 /*Other code*/
 
 body {
-	background: rgb(0, 177, 255);
-	background: linear-gradient(160deg, rgba(0, 177, 255, 1) 0%, rgba(137, 211, 247, 1) 10%, rgba(255, 255, 255, 1) 100%);
-	height: 1080px;
+	background: #86d1f2;
+
 }
 
 /* Style the header with a grey background and some padding */
@@ -30,7 +29,7 @@ body {
 	font-size: 18px;
 	line-height: 25px;
 	border-radius: 4px;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mali', cursive;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -78,20 +77,27 @@ p {
 h1,
 h2,
 h3 {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mali', cursive;
 	padding: 10px;
 }
 
 /*Index*/
 
 #index {
-	position: relative;
 	height: 100%;
 	width: 100%;
-	top: 10px;
-	left: 50px;
-	background-image: url(img/indexbg.png);
-	background-repeat: no-repeat;
+	top: 50px;
+
+}
+
+#background {
+	position: relative;
+
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
 }
 
 /*Om*/
@@ -144,7 +150,6 @@ li {
 	flex-grow: 1;
 	flex-basis: 300px;
 
-
 }
 
 #eksempler .top {
@@ -160,6 +165,7 @@ img {
 	padding: 10px;
 }
 
+@media only screen and (min-width: 360px) {}
 
 
 /*Tema 1 - Grundlæggende Web*/
