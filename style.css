@@ -188,6 +188,35 @@ img {
 
 }
 
+#webeksempler .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #db6261;
+    margin: 1rem;
+}
+
+#webeksempler .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 300px;
+
+
+}
+
+#webeksempler .top {
+    flex-grow: 0;
+    flex-basis: 300px;
+
+}
+
+#webeksempler .bottom {
+    flex-grow: 0;
+    flex-basis: 300px;
+
+}
+
 
 /*Tema 2 - Grundlæggende Animation*/
 
@@ -208,6 +237,34 @@ img {
 
 }
 
+#spileksempler .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #db6261;
+    margin: 1rem;
+}
+
+#spileksempler .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 300px;
+
+
+}
+
+#spileksempler .top {
+    flex-grow: 0;
+    flex-basis: 300px;
+
+}
+
+#spileksempler .bottom {
+    flex-grow: 0;
+    flex-basis: 300px;
+
+}
 
 /*Tema 3 - Grundlæggende Content*/
 
@@ -228,6 +285,35 @@ img {
 
 }
 
+#contenteksempler .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #db6261;
+    margin: 1rem;
+}
+
+#contenteksempler .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 300px;
+
+
+}
+
+#contenteksempler .top {
+    flex-grow: 0;
+    flex-basis: 300px;
+
+}
+
+#contenteksempler .bottom {
+    flex-grow: 0;
+    flex-basis: 300px;
+
+}
+
 /*Tema 4 - Grundlæggende UX*/
 
 #ux .sectionwrapper {
@@ -244,6 +330,35 @@ img {
     flex-basis: 300px;
     margin: 1.5em;
     padding: 0.15em;
+
+}
+
+#uxeksempler .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #db6261;
+    margin: 1rem;
+}
+
+#uxeksempler .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 300px;
+
+
+}
+
+#uxeksempler .top {
+    flex-grow: 0;
+    flex-basis: 300px;
+
+}
+
+#uxeksempler .bottom {
+    flex-grow: 0;
+    flex-basis: 300px;
 
 }
 
