@@ -128,11 +128,24 @@ h4 {
 
 }
 
+#cv .bottom img {
+	height: 60px;
+	width: 60px;
+	margin: 0;
+	padding: 0;
+}
+
 li {
 	list-style: none;
 	font-family: sans-serif;
-	margin: 10px;
+	margin: 5px;
 	padding: 5px;
+
+}
+
+li img {
+	height: 50px;
+	padding: 1px
 }
 
 /* Portfolio */
@@ -217,13 +230,22 @@ img {
 
 }
 
+figure {
+	height: 250px;
+	width: 350px;
+}
+
+figcaption {
+	font-family: 'Mali', cursive;
+}
+
 
 /*Tema 2 - Grundlæggende Animation*/
 
 #animation .sectionwrapper {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #c1d676;
+	background-color: #B8EDBA;
 	margin: 1rem;
 
 }
@@ -271,7 +293,7 @@ img {
 #content .sectionwrapper {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #c1d676;
+	background-color: #B8EDBA;
 	margin: 1rem;
 
 }
@@ -288,7 +310,7 @@ img {
 #contenteksempler .sectionwrapper {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #db6261;
+	background-color: #9DF7F3;
 	margin: 1rem;
 }
 
@@ -319,7 +341,7 @@ img {
 #ux .sectionwrapper {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #c1d676;
+	background-color: #B8EDBA;
 	margin: 1rem;
 
 }
@@ -336,7 +358,7 @@ img {
 #uxeksempler .sectionwrapper {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #db6261;
+	background-color: #9DF7F3;
 	margin: 1rem;
 }
 
