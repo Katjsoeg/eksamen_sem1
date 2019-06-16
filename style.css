@@ -7,7 +7,7 @@
 /*Other code*/
 
 body {
-	background: #86d1f2;
+	background: #B5CCFF;
 
 }
 
@@ -140,7 +140,7 @@ li {
 #eksempler .sectionwrapper {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #db6261;
+	background-color: #9DF7F3;
 	margin: 1rem;
 }
 
@@ -172,48 +172,48 @@ img {
 /*Tema 1 - Grundlæggende Web*/
 
 #web .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #c1d676;
-    margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #B8EDBA;
+	margin: 1rem;
 
 }
 
 
 #web .col {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 1.5em;
-    padding: 0.15em;
+	flex-grow: 1;
+	flex-basis: 300px;
+	margin: 1.5em;
+	padding: 0.15em;
 
 }
 
 #webeksempler .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #db6261;
-    margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #9DF7F3;
+	margin: 1rem;
 }
 
 #webeksempler .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-    flex-basis: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+	flex-basis: 300px;
 
 
 }
 
 #webeksempler .top {
-    flex-grow: 0;
-    flex-basis: 300px;
+	flex-grow: 0;
+	flex-basis: 300px;
 
 }
 
 #webeksempler .bottom {
-    flex-grow: 0;
-    flex-basis: 300px;
+	flex-grow: 0;
+	flex-basis: 300px;
 
 }
 
@@ -221,144 +221,144 @@ img {
 /*Tema 2 - Grundlæggende Animation*/
 
 #animation .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #c1d676;
-    margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #c1d676;
+	margin: 1rem;
 
 }
 
 
 #animation .col {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 1.5em;
-    padding: 0.15em;
+	flex-grow: 1;
+	flex-basis: 300px;
+	margin: 1.5em;
+	padding: 0.15em;
 
 }
 
 #spileksempler .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #db6261;
-    margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #9DF7F3;
+	margin: 1rem;
 }
 
 #spileksempler .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-    flex-basis: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+	flex-basis: 300px;
 
 
 }
 
 #spileksempler .top {
-    flex-grow: 0;
-    flex-basis: 300px;
+	flex-grow: 0;
+	flex-basis: 300px;
 
 }
 
 #spileksempler .bottom {
-    flex-grow: 0;
-    flex-basis: 300px;
+	flex-grow: 0;
+	flex-basis: 300px;
 
 }
 
 /*Tema 3 - Grundlæggende Content*/
 
 #content .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #c1d676;
-    margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #c1d676;
+	margin: 1rem;
 
 }
 
 
 #content .col {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 1.5em;
-    padding: 0.15em;
+	flex-grow: 1;
+	flex-basis: 300px;
+	margin: 1.5em;
+	padding: 0.15em;
 
 }
 
 #contenteksempler .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #db6261;
-    margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #db6261;
+	margin: 1rem;
 }
 
 #contenteksempler .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-    flex-basis: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+	flex-basis: 300px;
 
 
 }
 
 #contenteksempler .top {
-    flex-grow: 0;
-    flex-basis: 300px;
+	flex-grow: 0;
+	flex-basis: 300px;
 
 }
 
 #contenteksempler .bottom {
-    flex-grow: 0;
-    flex-basis: 300px;
+	flex-grow: 0;
+	flex-basis: 300px;
 
 }
 
 /*Tema 4 - Grundlæggende UX*/
 
 #ux .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #c1d676;
-    margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #c1d676;
+	margin: 1rem;
 
 }
 
 
 #ux .col {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 1.5em;
-    padding: 0.15em;
+	flex-grow: 1;
+	flex-basis: 300px;
+	margin: 1.5em;
+	padding: 0.15em;
 
 }
 
 #uxeksempler .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #db6261;
-    margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #db6261;
+	margin: 1rem;
 }
 
 #uxeksempler .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-    flex-basis: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+	flex-basis: 300px;
 
 
 }
 
 #uxeksempler .top {
-    flex-grow: 0;
-    flex-basis: 300px;
+	flex-grow: 0;
+	flex-basis: 300px;
 
 }
 
 #uxeksempler .bottom {
-    flex-grow: 0;
-    flex-basis: 300px;
+	flex-grow: 0;
+	flex-basis: 300px;
 
 }
 
