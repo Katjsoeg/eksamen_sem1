@@ -128,10 +128,18 @@ h4 {
 
 }
 
+#cv .top img {
+	height: 40px;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+
+}
+
 #cv .bottom img {
 	height: 60px;
 	width: 60px;
-	margin: 0;
+	margin-top: 25px;
 	padding: 0;
 }
 
