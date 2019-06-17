@@ -296,6 +296,23 @@ figcaption {
 
 }
 
+#animation figure img {
+	height: 250px;
+	width: 350px;
+	margin-left: 200px;
+	margin-bottom: 35px;
+}
+
+#animation figcaption {
+	margin-left: 200px;
+
+}
+
+#web figcaption a {
+	text-decoration: none;
+	font-size: 25px;
+}
+
 
 #animation .col {
 	flex-grow: 1;
@@ -331,6 +348,31 @@ figcaption {
 #spileksempler .bottom {
 	flex-grow: 0;
 	flex-basis: 300px;
+
+}
+
+#spileksempler figure img {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}
+
+#spileksempler .top {
+	flex-grow: 0;
+	flex-basis: 300px;
+	margin: 25px;
+
+}
+
+#spileksempler .bottom {
+	flex-grow: 0;
+	flex-basis: 300px;
+
+}
+
+
+figcaption {
+	font-family: 'Mali', cursive;
 
 }
 
@@ -371,7 +413,7 @@ figcaption {
 }
 
 
-/* #contenteksempler .top {
+#contenteksempler .top {
 	flex-grow: 0;
 	flex-basis: 300px;
 
@@ -381,7 +423,32 @@ figcaption {
 	flex-grow: 0;
 	flex-basis: 300px;
 
-} */
+}
+
+#contenteksempler figure img {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}
+
+#contenteksempler .top {
+	flex-grow: 0;
+	flex-basis: 300px;
+	margin: 25px;
+
+}
+
+#contenteksempler .bottom {
+	flex-grow: 0;
+	flex-basis: 300px;
+
+}
+
+
+figcaption {
+	font-family: 'Mali', cursive;
+
+}
 
 /*Tema 4 - Grundlæggende UX*/
 
@@ -428,6 +495,31 @@ figcaption {
 #uxeksempler .bottom {
 	flex-grow: 0;
 	flex-basis: 300px;
+
+}
+
+#uxeksempler figure img {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}
+
+#uxeksempler .top {
+	flex-grow: 0;
+	flex-basis: 300px;
+	margin: 25px;
+
+}
+
+#webuxeksempler .bottom {
+	flex-grow: 0;
+	flex-basis: 300px;
+
+}
+
+
+figcaption {
+	font-family: 'Mali', cursive;
 
 }
 
