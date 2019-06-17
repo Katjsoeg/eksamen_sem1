@@ -305,6 +305,8 @@ figcaption {
 
 }
 
+
+
 #animation p {
 	font-family: 'mali', cursive;
 	margin-left: 0;
@@ -344,12 +346,18 @@ figcaption {
 
 }
 
-#spileksempler .col4 figure {
+ #spileksempler .col4 figure {
 	width: 100%;
 }
 
 #spileksempler .col4 figure img {
 	width: 100%;
+}
+
+#spileksempel img {
+	height: auto;
+	width: 100%;
+
 }
 
 #spileksempler .top {
