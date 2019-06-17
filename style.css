@@ -226,13 +226,13 @@ li img {
 }
 
 #web figure img {
-	height: 250px;
-	width: 350px;
-	margin-left: 200px;
+	height: auto;
+	width: 100%;
+
 }
 
 #web figcaption {
-	margin-left: 200px;
+	margin-left: 0;
 
 }
 
@@ -261,15 +261,15 @@ li img {
 
 
 #webeksempler figure img {
-	height: 200px;
-	width: 300px;
-	margin: 10px;
+	height: auto;
+	width: 100%;
+
 }
 
 #webeksempler .top {
 	flex-grow: 0;
 	flex-basis: 300px;
-	margin: 25px;
+	margin: 15px;
 
 }
 
@@ -293,18 +293,19 @@ figcaption {
 	flex-wrap: wrap;
 	background-color: #B8EDBA;
 	margin: 1rem;
+	border-style: dashed;
 
 }
 
 #animation figure img {
-	height: 250px;
-	width: 350px;
-	margin-left: 200px;
+	height: auto;
+	width: 80%;
+
 
 }
 
 #animation figcaption {
-	margin-left: 200px;
+	margin-left: 0;
 	font-size: 15px;
 	margin-bottom: 20px;
 }
@@ -328,6 +329,7 @@ figcaption {
 	flex-wrap: wrap;
 	background-color: #9DF7F3;
 	margin: 1rem;
+	border-style: dashed;
 }
 
 #spileksempler .col {
@@ -341,11 +343,11 @@ figcaption {
 }
 
 #spileksempler .col4 figure {
-	width: 400px;
+	width: 100%;
 }
 
-#spileksempler .col4 figure img{
-	width: 400px;
+#spileksempler .col4 figure img {
+	width: 100%;
 }
 
 #spileksempler .top {
@@ -361,8 +363,8 @@ figcaption {
 }
 
 #spileksempler figure img {
-	height: 250px;
-	width: 200px;
+	height: auto;
+	width: 100%;
 	margin: 10px;
 }
 
@@ -411,9 +413,9 @@ figcaption {
 }
 
 #content figure img {
-	height: 250px;
-	width: 350px;
-	margin-left: 200px;
+	height: 100%;
+	width: 100%;
+	margin: 0;
 
 }
 
