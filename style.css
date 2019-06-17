@@ -212,6 +212,7 @@ li img {
 	flex-wrap: wrap;
 	background-color: #B8EDBA;
 	margin: 1rem;
+	border-style: dashed;
 
 }
 
@@ -224,11 +225,23 @@ li img {
 
 }
 
+#web figure img {
+	height: 200px;
+	width: 200px;
+	margin-left: 200px;
+}
+
+#web figcaption {
+	text-decoration-style: none;
+	margin-left: 200px;
+}
+
 #webeksempler .sectionwrapper {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #9DF7F3;
 	margin: 1rem;
+	border-style: dashed;
 }
 
 #webeksempler .col {
@@ -241,9 +254,16 @@ li img {
 
 }
 
+#webeksempler figure img {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}
+
 #webeksempler .top {
 	flex-grow: 0;
 	flex-basis: 300px;
+	margin: 10px;
 
 }
 
@@ -255,11 +275,13 @@ li img {
 
 figure {
 	height: 250px;
-	width: 350px;
+	width: 450px;
 }
+
 
 figcaption {
 	font-family: 'Mali', cursive;
+
 }
 
 
@@ -347,7 +369,8 @@ figcaption {
 
 }
 
-#contenteksempler .top {
+
+/* #contenteksempler .top {
 	flex-grow: 0;
 	flex-basis: 300px;
 
@@ -357,7 +380,7 @@ figcaption {
 	flex-grow: 0;
 	flex-basis: 300px;
 
-}
+} */
 
 /*Tema 4 - Grundlæggende UX*/
 
