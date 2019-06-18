@@ -103,6 +103,33 @@ h4 {
 
 /*Om*/
 
+
+
+#about .sectionwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #B483EA;
+	margin: 1rem;
+	border-style: dashed;
+}
+
+#about .col {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+	flex-basis: 300px;
+
+
+}
+
+#about img {
+	height: auto;
+	width: 100%;
+
+}
+
+
 /*CV*/
 
 #cv .sectionwrapper {
