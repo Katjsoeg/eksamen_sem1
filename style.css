@@ -566,15 +566,71 @@ figcaption {
 
 /* Media queries */
 
-@media only screen and (min-width: 360px) {}
+@media only screen and (min-width: 320px) {
 
-@media only screen and (min-width: 1024px) {
-	#spileksempler .col {
-		flex-grow: 1;
+	#portfolio .top {
+		flex-grow: 0;
 		flex-basis: 300px;
-		margin: 1.5em;
-		padding: 0.15em;
+		padding: 10px;
+	}
+
+	#portfolio .top img {
+		height: auto;
+		width: 100%;
+		margin: 0;
+		border-radius: 20%;
+		border-style: ridge;
+		border-width: 10px;
+		border-color: #83E085;
 
 	}
 
-}
+
+
+	@media only screen and (min-width: 360px) {}
+
+	@media only screen and (min-width: 1024px) {
+		#spileksempler .col {
+			flex-grow: 1;
+			flex-basis: 300px;
+			margin: 1.5em;
+			padding: 0.15em;
+
+		}
+
+		#portfolio .sectionwrapper {
+			display: flex;
+			flex-wrap: wrap;
+			background-color: #B483EA;
+			margin: 1rem;
+			border-style: dashed;
+		}
+
+		#portfolio .col {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			flex-grow: 1;
+			flex-basis: 300px;
+
+
+		}
+
+		#portfolio .top {
+			flex-grow: 0;
+			flex-basis: 300px;
+			padding-bottom: 10px;
+			padding-left: 10px;
+		}
+
+		#portfolio .top img {
+			height: 250px;
+			width: 250px;
+			margin: 0;
+
+			border-radius: 20%;
+			border-style: ridge;
+			border-width: 10px;
+			border-color: #83E085;
+
+		}
