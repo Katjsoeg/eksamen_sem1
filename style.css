@@ -202,7 +202,7 @@ li img {
 
 
 
-@media only screen and (min-width: 360px) {}
+
 
 
 /*Tema 1 - Grundlæggende Web*/
@@ -328,6 +328,8 @@ figcaption {
 
 }
 
+
+
 #spileksempler .sectionwrapper {
 	display: flex;
 	flex-wrap: wrap;
@@ -346,15 +348,9 @@ figcaption {
 
 }
 
- #spileksempler .col4 figure {
-	width: 100%;
-}
 
-#spileksempler .col4 figure img {
-	width: 100%;
-}
 
-#spileksempel img {
+#spileksempler img {
 	height: auto;
 	width: 100%;
 
@@ -370,12 +366,6 @@ figcaption {
 	flex-grow: 0;
 	flex-basis: 300px;
 
-}
-
-#spileksempler figure img {
-	height: auto;
-	width: 100%;
-	margin: 10px;
 }
 
 #spileksempler .top {
@@ -570,8 +560,21 @@ figcaption {
 
 figcaption {
 	font-family: 'Mali', cursive;
-
+	margin: 10px;
 }
 
 
 /* Media queries */
+
+@media only screen and (min-width: 360px) {}
+
+@media only screen and (min-width: 1024px) {
+	#spileksempler .col {
+		flex-grow: 1;
+		flex-basis: 300px;
+		margin: 1.5em;
+		padding: 0.15em;
+
+	}
+
+}
