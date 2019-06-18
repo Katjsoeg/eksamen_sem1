@@ -496,6 +496,25 @@ figcaption {
 
 }
 
+#ux img {
+	height: auto;
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+
+#ux p {
+	font-family: 'mali', cursive;
+	margin-left: 0;
+
+}
+
+#ux a {
+	text-decoration: none;
+	font-family: 'mali', cursive;
+	font-size: 25px;
+}
 
 #ux .col {
 	flex-grow: 1;
@@ -505,9 +524,6 @@ figcaption {
 
 }
 
-#ux figcaption a {
-	text-decoration: none;
-}
 
 #uxeksempler .sectionwrapper {
 	display: flex;
@@ -632,5 +648,12 @@ figcaption {
 			border-style: ridge;
 			border-width: 10px;
 			border-color: #83E085;
+
+		}
+
+		#ux img {
+			height: auto;
+			width: 200px;
+			margin-bottom: 20px;
 
 		}
