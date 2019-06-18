@@ -123,10 +123,9 @@ h4 {
 
 }
 
-#about img {
-	height: auto;
-	width: 100%;
-
+#about .col-left img {
+	height: 100px;
+	width: 100px;
 }
 
 
@@ -520,6 +519,7 @@ figcaption {
 	flex-wrap: wrap;
 	background-color: #B8EDBA;
 	margin: 1rem;
+	border-style: dashed;
 
 }
 
@@ -529,6 +529,7 @@ figcaption {
 	margin-bottom: 20px;
 
 }
+
 
 
 #ux p {
@@ -543,6 +544,7 @@ figcaption {
 	font-size: 25px;
 }
 
+
 #ux .col {
 	flex-grow: 1;
 	flex-basis: 300px;
@@ -550,6 +552,7 @@ figcaption {
 	padding: 0.15em;
 
 }
+
 
 
 #uxeksempler .sectionwrapper {
@@ -630,68 +633,70 @@ li {
 	p {
 		margin: 0;
 	}
+}
 
 
+@media only screen and (min-width: 360px) {
 
-	@media only screen and (min-width: 360px) {
-
-		p {
-			margin: 0;
-		}
+	p {
+		margin: 0;
 	}
 
-	@media only screen and (min-width: 1024px) {
-		#spileksempler .col {
-			flex-grow: 1;
-			flex-basis: 300px;
-			margin: 1.5em;
-			padding: 0.15em;
+	#about img {
+		height: 100px;
+		width: 100px;
+	}
+}
 
-		}
+@media only screen and (min-width: 1024px) {
+	#spileksempler .col {
+		flex-grow: 1;
+		flex-basis: 300px;
+		margin: 1.5em;
+		padding: 0.15em;
 
-		#portfolio .sectionwrapper {
-			display: flex;
-			flex-wrap: wrap;
-			background-color: #B483EA;
-			margin: 1rem;
-			border-style: dashed;
-		}
+	}
 
-		#portfolio .col {
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			flex-grow: 1;
-			flex-basis: 300px;
+	#portfolio .sectionwrapper {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #B483EA;
+		margin: 1rem;
+		border-style: dashed;
+	}
+
+	#portfolio .col {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex-grow: 1;
+		flex-basis: 300px;
 
 
-		}
+	}
 
-		#portfolio .top {
-			flex-grow: 0;
-			flex-basis: 300px;
-			padding-bottom: 10px;
-			padding-left: 10px;
-		}
+	#portfolio .top {
+		flex-grow: 0;
+		flex-basis: 300px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
 
-		#portfolio .top img {
-			height: 250px;
-			width: 250px;
-			margin: 0;
+	#portfolio .top img {
+		height: 250px;
+		width: 250px;
+		margin: 0;
 
-			border-radius: 20%;
-			border-style: ridge;
-			border-width: 10px;
-			border-color: #83E085;
+		border-radius: 20%;
+		border-style: ridge;
+		border-width: 10px;
+		border-color: #83E085;
 
-		}
+	}
 
-		#ux img {
-			height: auto;
-			width: 200px;
-			margin-bottom: 20px;
-		}
+	#ux img {
+		height: 300px;
+		width: 150px;
 
-		p {
-			margin: 0;
-		}
+	}
+}
