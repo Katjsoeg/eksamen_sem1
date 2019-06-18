@@ -542,11 +542,13 @@ figcaption {
 
 }
 
-#uxeksempler .top {
-	flex-grow: 0;
-	flex-basis: 300px;
+#uxeksempler img {
+	height: auto;
+	width: 100%;
 
 }
+
+
 
 #uxeksempler .bottom {
 	flex-grow: 0;
@@ -567,18 +569,15 @@ figcaption {
 
 }
 
-#webuxeksempler .bottom {
-	flex-grow: 0;
-	flex-basis: 300px;
 
-}
-
-
-figcaption {
+p {
 	font-family: 'Mali', cursive;
 	margin: 10px;
 }
 
+li {
+	font-family: 'Mali', cursive;
+}
 
 /* Media queries */
 
@@ -601,9 +600,18 @@ figcaption {
 
 	}
 
+	p {
+		margin: 0;
+	}
 
 
-	@media only screen and (min-width: 360px) {}
+
+	@media only screen and (min-width: 360px) {
+
+		p {
+			margin: 0;
+		}
+	}
 
 	@media only screen and (min-width: 1024px) {
 		#spileksempler .col {
@@ -655,5 +663,8 @@ figcaption {
 			height: auto;
 			width: 200px;
 			margin-bottom: 20px;
+		}
 
+		p {
+			margin: 0;
 		}
